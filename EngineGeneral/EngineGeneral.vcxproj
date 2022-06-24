@@ -220,7 +220,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>"$(SolutionDir)ThirdPartyCopy.bat" "$(SolutionDir)" "$(Platform)" "$(Configuration)"</Command>
+      <Command>$(SolutionDir)ThirdPartyCopy.bat $(SolutionDir) $(Platform) $(Configuration)</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -241,7 +241,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>"$(SolutionDir)ThirdPartyCopy.bat" "$(SolutionDir)" "$(Platform)" "$(Configuration)"</Command>
+      <Command>$(SolutionDir)ThirdPartyCopy.bat $(SolutionDir) $(Platform) $(Configuration)</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -258,7 +258,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>"$(SolutionDir)ThirdPartyCopy.bat" "$(SolutionDir)" "$(Platform)" "$(Configuration)"</Command>
+      <Command>$(SolutionDir)ThirdPartyCopy.bat $(SolutionDir) $(Platform) $(Configuration)</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -279,7 +279,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>"$(SolutionDir)ThirdPartyCopy.bat" "$(SolutionDir)" "$(Platform)" "$(Configuration)"</Command>
+      <Command>$(SolutionDir)ThirdPartyCopy.bat $(SolutionDir) $(Platform) $(Configuration)</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
