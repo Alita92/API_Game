@@ -1,0 +1,33 @@
+#pragma once
+
+enum class ST2GROUP
+{
+	GROUND,
+	LEFTWALL,
+	RIGHTWALL,
+	PLAYER1HIT,
+	PLAYER1COLLISION,
+	PLAYER1BODY,
+	PLAYER1STRIKE,
+	PLAYER2HIT,
+	PLAYER2COLLISION,
+	PLAYER2BODY,
+	PLAYER2STRIKE,
+	PROJECTILE,
+	MAX
+};
+
+enum class ACTORDIR // 현재 캐릭터가 지향하고 있어야 할 방향
+{
+	LOOK_RIGHT,
+	LOOK_LEFT,
+	MAX
+};
+
+enum class STRIKEDIR // 피격, 가드 이팩트 재생 기준
+{
+	UP,
+	MID,
+	DOWN,
+	MAX
+};

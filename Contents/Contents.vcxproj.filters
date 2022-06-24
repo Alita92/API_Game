@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Object">
+      <UniqueIdentifier>{68457f1b-1478-4d76-8973-45fd5cabbfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{98cf59b8-e264-462e-85bd-dbaaf42ba595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\TitleScene">
+      <UniqueIdentifier>{0d5c8d96-6dfb-471f-b65b-1628cbeffed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene">
+      <UniqueIdentifier>{7e932e18-439e-4c6c-bffd-18e61ef2ac9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\VSScene">
+      <UniqueIdentifier>{b4d2fcb5-842c-4a0a-aac0-28044dc69787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CharSelectScene">
+      <UniqueIdentifier>{4fb7f9bc-b8c5-4892-9f9d-1d0c8b4d2c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ResultScene">
+      <UniqueIdentifier>{c465fe1b-7865-4be4-8fae-5125d1686f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ContinueScene">
+      <UniqueIdentifier>{2e468d74-294b-47da-aae9-eb0ddd3e907a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EndScene">
+      <UniqueIdentifier>{a2e19451-ffed-4ad1-b165-85c32d67eda0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Character">
+      <UniqueIdentifier>{cc79b27f-4849-44d1-9049-41dd92d5ccaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Stage">
+      <UniqueIdentifier>{aa8a01c1-f188-4624-b6ce-a11e9ece8005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\UI">
+      <UniqueIdentifier>{501991f3-848b-4337-b4a4-6a1972769785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonUse">
+      <UniqueIdentifier>{47c65435-34ae-45a8-ad27-21436cbe0583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CharSelectScene\Background">
+      <UniqueIdentifier>{d432ab7a-5762-4c06-884c-2610f4dddc88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Effects">
+      <UniqueIdentifier>{6319259d-3a51-495d-8b36-084a7b1a34e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Stage\Ryu">
+      <UniqueIdentifier>{290bda81-6cb9-4774-92de-d57430966aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Stage\Guile">
+      <UniqueIdentifier>{81a5cb39-a0df-4cf2-a231-d04becc55320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Stage\ChunLi">
+      <UniqueIdentifier>{d1ecf28f-73f6-4b7c-8c21-d0af8a32cf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FightScene\Stage\Cammy">
+      <UniqueIdentifier>{355b5a45-171a-467a-9024-363dbffbad23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelectScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FightScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>Object\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="VSPortraitP1.cpp">
+      <Filter>Object\VSScene</Filter>
+    </ClCompile>
+    <ClCompile Include="VSPortraitP2.cpp">
+      <Filter>Object\VSScene</Filter>
+    </ClCompile>
+    <ClCompile Include="VSBackground.cpp">
+      <Filter>Object\VSScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleTypoSprites.cpp">
+      <Filter>Object\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueLoserPortrait.cpp">
+      <Filter>Object\ContinueScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultBackground.cpp">
+      <Filter>Object\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>Object\EndScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ken.cpp">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Ryu.cpp">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="HitPointGauge.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterHandle.cpp">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="HPbar.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCounter.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WinnerTexth.cpp">
+      <Filter>Object\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RefereeText.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultPortrait.cpp">
+      <Filter>Object\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenFade.cpp">
+      <Filter>CommonUse</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionPortrait.cpp">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionFlag.cpp">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectBackground.cpp">
+      <Filter>Object\CharSelectScene\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectVSBackground.cpp">
+      <Filter>Object\CharSelectScene\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="VSTypo.cpp">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="VSPortrait.cpp">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FightEffects.cpp">
+      <Filter>Object\FightScene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Object\FightScene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="StageRyu.cpp">
+      <Filter>Object\FightScene\Stage\Ryu</Filter>
+    </ClCompile>
+    <ClCompile Include="StageRyuBack.cpp">
+      <Filter>Object\FightScene\Stage\Ryu</Filter>
+    </ClCompile>
+    <ClCompile Include="StageRyuMid.cpp">
+      <Filter>Object\FightScene\Stage\Ryu</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGuileFore.cpp">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGuileMid.cpp">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGuileBack.cpp">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGuileFog.cpp">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClCompile>
+    <ClCompile Include="VSName.cpp">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HitPointName.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGuilePeople.cpp">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueBackground.cpp">
+      <Filter>Object\ContinueScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueKOCounter.cpp">
+      <Filter>Object\ContinueScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Winpoint.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunLi.cpp">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCRT.cpp">
+      <Filter>CommonUse</Filter>
+    </ClCompile>
+    <ClCompile Include="StageChunLiFore.cpp">
+      <Filter>Object\FightScene\Stage\ChunLi</Filter>
+    </ClCompile>
+    <ClCompile Include="StageChunLiBack.cpp">
+      <Filter>Object\FightScene\Stage\ChunLi</Filter>
+    </ClCompile>
+    <ClCompile Include="StageCammy.cpp">
+      <Filter>Object\FightScene\Stage\Cammy</Filter>
+    </ClCompile>
+    <ClCompile Include="Cammy.cpp">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="DustParticle.cpp">
+      <Filter>Object\FightScene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="StageCammyBack.cpp">
+      <Filter>Object\FightScene\Stage\Cammy</Filter>
+    </ClCompile>
+    <ClCompile Include="InFightText.cpp">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelectScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FightScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinueScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>Object\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="VSPortraitP1.h">
+      <Filter>Object\VSScene</Filter>
+    </ClInclude>
+    <ClInclude Include="VSPortraitP2.h">
+      <Filter>Object\VSScene</Filter>
+    </ClInclude>
+    <ClInclude Include="VSBackground.h">
+      <Filter>Object\VSScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleTypoSprites.h">
+      <Filter>Object\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinueLoserPortrait.h">
+      <Filter>Object\ContinueScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultBackground.h">
+      <Filter>Object\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>Object\EndScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ken.h">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Ryu.h">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="HitPointGauge.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterHandle.h">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="HPbar.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCounter.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WinnerTexth.h">
+      <Filter>Object\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RefereeText.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultPortrait.h">
+      <Filter>Object\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsENUM.h">
+      <Filter>CommonUse</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenFade.h">
+      <Filter>CommonUse</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionPortrait.h">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionFlag.h">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectBackground.h">
+      <Filter>Object\CharSelectScene\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectVSBackground.h">
+      <Filter>Object\CharSelectScene\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="VSTypo.h">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="VSPortrait.h">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FightEffects.h">
+      <Filter>Object\FightScene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Object\FightScene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="StageRyu.h">
+      <Filter>Object\FightScene\Stage\Ryu</Filter>
+    </ClInclude>
+    <ClInclude Include="StageRyuBack.h">
+      <Filter>Object\FightScene\Stage\Ryu</Filter>
+    </ClInclude>
+    <ClInclude Include="StageRyuMid.h">
+      <Filter>Object\FightScene\Stage\Ryu</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGuileFore.h">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGuileMid.h">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGuileBack.h">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGuileFog.h">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClInclude>
+    <ClInclude Include="VSName.h">
+      <Filter>Object\CharSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HitPointName.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGuilePeople.h">
+      <Filter>Object\FightScene\Stage\Guile</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinueBackground.h">
+      <Filter>Object\ContinueScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinueKOCounter.h">
+      <Filter>Object\ContinueScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Winpoint.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunLi.h">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCRT.h">
+      <Filter>CommonUse</Filter>
+    </ClInclude>
+    <ClInclude Include="StageChunLiFore.h">
+      <Filter>Object\FightScene\Stage\ChunLi</Filter>
+    </ClInclude>
+    <ClInclude Include="StageChunLiBack.h">
+      <Filter>Object\FightScene\Stage\ChunLi</Filter>
+    </ClInclude>
+    <ClInclude Include="StageCammy.h">
+      <Filter>Object\FightScene\Stage\Cammy</Filter>
+    </ClInclude>
+    <ClInclude Include="Cammy.h">
+      <Filter>Object\FightScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="DustParticle.h">
+      <Filter>Object\FightScene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="StageCammyBack.h">
+      <Filter>Object\FightScene\Stage\Cammy</Filter>
+    </ClInclude>
+    <ClInclude Include="InFightText.h">
+      <Filter>Object\FightScene\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+캐릭터 프레임 자료 : https://wiki.supercombo.gg/w/Category:Super_Street_Fighter_2_Turbo
+판정 박스 자료 : https://doctorguile.github.io/ssf2st/compare.html
+
+1fps = 0.017
+2fps = 0.034
+3fps = 0.051
+4fps = 0.068
+5fps = 0.085
+6fps = 0.102
+7fps = 0.119
+8fps = 0.136
+9fps = 0.153
+10fps = 0.17
+
+11fps = 0.187
+12fps = 0.204
+13fps = 0.221
+
+15fps = 0.255
+16fps = 0.267
+17fps = 0.289
+
+
+20fps = 0.34
+21fps = 0.357
+22fps = 0.374
+23fps = 0.391
+
+
+26fps = 0.442

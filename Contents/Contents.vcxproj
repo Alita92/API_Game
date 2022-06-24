@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EngineGeneral\EngineGeneral.vcxproj">
+      <Project>{02a952ca-a3d4-405e-8978-1c81ead992fa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Engine.vcxproj">
+      <Project>{5676f025-8633-445b-a8d5-148ecae789d3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cammy.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CharacterHandle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CharacterSelectScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ChunLi.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ContentsENUM.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ContinueBackground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ContinueKOCounter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ContinueLoserPortrait.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ContinueScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DustParticle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FightEffects.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FightScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="HitPointGauge.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="HitPointName.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="HPbar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="InFightText.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Ken.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RefereeText.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ResultBackground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ResultPortrait.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Ryu.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ScreenFade.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SelectBackground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SelectCRT.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SelectionFlag.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SelectionPortrait.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SelectVSBackground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageCammy.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageCammyBack.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageChunLiBack.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageChunLiFore.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageGuileBack.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageGuileFog.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageGuileFore.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageGuileMid.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageGuilePeople.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageRyu.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageRyuBack.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageRyuMid.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TimeCounter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleTypoSprites.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VSBackground.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VSName.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VSPortrait.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VSPortraitP1.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VSPortraitP2.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="VSTypo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="WinnerTexth.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Winpoint.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cammy.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="CharacterHandle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="CharacterSelectScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ChunLi.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ContinueBackground.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ContinueKOCounter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ContinueLoserPortrait.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ContinueScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DustParticle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="FightEffects.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="FightScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="HitPointGauge.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="HitPointName.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="HPbar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="InFightText.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Ken.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="RefereeText.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ResultBackground.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ResultPortrait.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Ryu.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ScreenFade.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SelectBackground.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SelectCRT.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SelectionFlag.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SelectionPortrait.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SelectVSBackground.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageCammy.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageCammyBack.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageChunLiBack.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageChunLiFore.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageGuileBack.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageGuileFog.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageGuileFore.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageGuileMid.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageGuilePeople.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageRyu.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageRyuBack.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageRyuMid.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TimeCounter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleTypoSprites.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="VSBackground.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="VSName.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="VSPortrait.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="VSPortraitP1.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="VSPortraitP2.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="VSTypo.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="WinnerTexth.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Winpoint.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{12b6304f-b631-43d3-89f0-4019320739dc}</ProjectGuid>
+    <RootNamespace>Contents</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\Engine\;..\EngineGeneral\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\Engine\;..\EngineGeneral\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\Engine\;..\EngineGeneral\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\ThirdParty\Include\;..\Engine\;..\EngineGeneral\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

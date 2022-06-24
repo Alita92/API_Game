@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{6636caf4-b4af-4b07-b574-3c9b22dcf438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{9dbacb47-6e4c-473c-b90d-7b2d0945fda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{760e0385-eec2-4b87-b767-f8f2b6c651e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6f4d5744-d1b2-4e2a-bdc1-7ba15aa7fe03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Value">
+      <UniqueIdentifier>{bee4413e-2885-4834-9e66-ec3255fb6d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{2e0fa15a-d980-480c-ad70-f0da9f27da34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{ad86606d-358e-45e1-be5e-337447b453dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineGeneralNameBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralObjectBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralFSM.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralTime.h">
+      <Filter>Value</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralPath.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralDirectory.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralSound.h">
+      <Filter>Media</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralSoundFile.h">
+      <Filter>Media</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralSoundPlayer.h">
+      <Filter>Media</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralMovie.h">
+      <Filter>Media</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGeneralVideo.h">
+      <Filter>Media</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineGeneralNameBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralObjectBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralFSM.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralTime.cpp">
+      <Filter>Value</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralDirectory.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralPath.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralSound.cpp">
+      <Filter>Media</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralSoundFile.cpp">
+      <Filter>Media</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralSoundPlayer.cpp">
+      <Filter>Media</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralMovie.cpp">
+      <Filter>Media</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGeneralVideo.cpp">
+      <Filter>Media</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

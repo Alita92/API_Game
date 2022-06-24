@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HighTier%28OS%29">
+      <UniqueIdentifier>{54de1be7-4ace-4033-92ac-964dcf8393de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighTier%28OS%29\EngineENUM">
+      <UniqueIdentifier>{12d05df1-1439-4301-9b6e-80a2ede039e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LowTier%28Database%29">
+      <UniqueIdentifier>{9b994a10-6e99-43c7-bd83-499909c35fb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineScreen.h">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAsset.h">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCollision.h">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineENUM.h">
+      <Filter>HighTier%28OS%29\EngineENUM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineScreen.cpp">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAsset.cpp">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>HighTier%28OS%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCollision.cpp">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineCollision_CheckFunc.cpp">
+      <Filter>LowTier%28Database%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
