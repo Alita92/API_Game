@@ -22,6 +22,15 @@
     <Filter Include="Media">
       <UniqueIdentifier>{ad86606d-358e-45e1-be5e-337447b453dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FMOD">
+      <UniqueIdentifier>{ae536d8b-d35b-4fc7-a138-3e8213bd5f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMOD\Debug">
+      <UniqueIdentifier>{dcd8cc26-760b-4916-a397-11a9d6dff48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMOD\Release">
+      <UniqueIdentifier>{abe08c31-c79a-4efe-9791-f1d0843baefb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EngineGeneralNameBase.h">
@@ -104,5 +113,35 @@
     <ClCompile Include="EngineGeneralVideo.cpp">
       <Filter>Media</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ThirdParty\x64\Release\FMOD\fmodL.dll">
+      <Filter>FMOD\Release</Filter>
+    </None>
+    <None Include="..\ThirdParty\x64\Release\FMOD\fmod.dll">
+      <Filter>FMOD\Release</Filter>
+    </None>
+    <None Include="..\ThirdParty\x64\Debug\FMOD\fmod.dll">
+      <Filter>FMOD\Debug</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ThirdParty\x64\Release\FMOD\fmodL_vc.lib">
+      <Filter>FMOD\Release</Filter>
+    </Library>
+    <Library Include="..\ThirdParty\x64\Debug\FMOD\fmod_vc.lib">
+      <Filter>FMOD\Debug</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FMOD\fmodL.dll">
+      <Filter>FMOD\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FMOD\fmodL_vc.lib">
+      <Filter>FMOD\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FMOD\fmod_vc.lib">
+      <Filter>FMOD\Release</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
