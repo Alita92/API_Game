@@ -115,32 +115,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\ThirdParty\x64\Release\FMOD\fmodL.dll">
-      <Filter>FMOD\Release</Filter>
-    </None>
-    <None Include="..\ThirdParty\x64\Release\FMOD\fmod.dll">
-      <Filter>FMOD\Release</Filter>
-    </None>
-    <None Include="..\ThirdParty\x64\Debug\FMOD\fmod.dll">
-      <Filter>FMOD\Debug</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\ThirdParty\x64\Release\FMOD\fmodL_vc.lib">
-      <Filter>FMOD\Release</Filter>
-    </Library>
-    <Library Include="..\ThirdParty\x64\Debug\FMOD\fmod_vc.lib">
-      <Filter>FMOD\Debug</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
-    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FMOD\fmodL.dll">
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FMOD\fmod.dll" />
+    <CopyFileToFolders Include="fmodL.dll">
       <Filter>FMOD\Debug</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FMOD\fmodL_vc.lib">
+    <CopyFileToFolders Include="fmodL_vc.lib">
       <Filter>FMOD\Debug</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FMOD\fmod_vc.lib">
+    <CopyFileToFolders Include="fmod.dll">
+      <Filter>FMOD\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="fmod_vc.lib">
       <Filter>FMOD\Release</Filter>
     </CopyFileToFolders>
   </ItemGroup>
