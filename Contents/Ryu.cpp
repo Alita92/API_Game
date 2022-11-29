@@ -146,10 +146,10 @@ void Ryu::KeyInit()
 		// 인자 1 : 내 충돌체의 특징 이넘
 		// 인자 2 : EngineENUM.h 에 들어있는 콜리전의 타입(박스, 포인트 등)
 
-		if (nullptr != guardRangeBox_->CollisionGroupCheckSingle(enemyStrike_))
-		{
-
-		}
+		//if (nullptr != guardRangeBox_->CollisionGroupCheckSingle(enemyStrike_))
+		//{
+		//
+		//}
 
 		strikeBoxOverHead_ = CreateCollision(ST2GROUP::PLAYER1STRIKEOVERHEAD, ColliderType::RECT);
 		strikeBoxLow_ = CreateCollision(ST2GROUP::PLAYER1STRIKELOW, ColliderType::RECT);
